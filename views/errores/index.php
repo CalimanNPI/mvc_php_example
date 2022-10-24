@@ -1,8 +1,5 @@
 <?php require "views/header.php" ?>
-<div id="main">
 
-    <h3 class="center">Bienvenido al sitio</h3>
-
-</div>
+<h1 class="error"><?php echo $this->message; ?></h1>
 
 <?php require "views/footer.php" ?>
