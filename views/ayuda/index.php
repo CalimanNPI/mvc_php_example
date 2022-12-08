@@ -1,4 +1,8 @@
 <?php require "views/header.php" ?>
-<h1>Vistas atyda</h1>
+<div id="main">
+
+    <h3 class="center">ayuda</h3>
+
+</div>
 
 <?php require "views/footer.php" ?>

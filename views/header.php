@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="<?php echo constant('URL'); ?>public/css/style.css">
 </head>
 
 <body>
     <div id="header">
         <ul>
-            <li><a href="#">Inicioi</a></li>
-            <li><a href="#">Nuevo</a></li>
-            <li><a href="#">Consulta</a></li>
-            <li><a href="#">Ayuda</a></li>
+            <li><a href="<?php echo constant('URL'); ?>main">Inicioi</a></li>
+            <li><a href="<?php echo constant('URL'); ?>nuevo">Nuevo</a></li>
+            <li><a href="<?php echo constant('URL'); ?>consulta">Consulta</a></li>
+            <li><a href="<?php echo constant('URL'); ?>ayuda">Ayuda</a></li>
         </ul>
     </div>
